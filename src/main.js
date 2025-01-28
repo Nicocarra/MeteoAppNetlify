@@ -1,6 +1,6 @@
 
 const apiKey = import.meta.env.VITE_API_KEY //added in netlify
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=vicenza" //url from openweathermap.org 2.5
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=" //url from openweathermap.org 2.5
 
 const searchBox = document.querySelector('.search input')
 const searchBtn = document.querySelector('.search button')
