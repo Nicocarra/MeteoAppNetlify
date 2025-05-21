@@ -101,21 +101,21 @@ body{
 
 .nextDays {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 10px;
-}
-
-.col2{
-    display: flex;
+    justify-content: space-evenly;  
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin-top: 40px;    
+    width: 100%;
+    padding: 20px 0;  
+
+.col2 {
+    display: inline-flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;  
 }
-
-
 .col2 img{
     width: 30px;
     margin-bottom: 10px;
